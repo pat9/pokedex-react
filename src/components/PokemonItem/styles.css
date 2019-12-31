@@ -4,16 +4,10 @@
     text-align: center;
     font-size: 1em;
     text-transform: capitalize;
-}
-
-.pokeitem a  {
-    text-decoration: none;
     color: white;
-    width: 100%;
-    height: 100%;
-    display: inline-block;
 }
 
 .pokeitem:hover {
     background-color: #1d4d4f;
+    cursor: pointer;
 }

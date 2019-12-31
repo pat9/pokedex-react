@@ -5,7 +5,7 @@ const Header = () => {
     return(
         <header className="header">
             <div className="header-menu-button">
-                Burger Menu
+                <i className="fa fa-bars"></i>
             </div>
             <div className="header-logo">
                 Pokedex

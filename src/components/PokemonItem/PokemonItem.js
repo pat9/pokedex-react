@@ -1,12 +1,10 @@
 import React from 'react'
 import './styles.css';
 
-export const PokemonItem = ({name, url}) => {
+export const PokemonItem = ({name, onClick}) => {
     return (
-        <li className="pokeitem"> 
-            <a href="#" >
-                {name}
-            </a>
+        <li className="pokeitem" onClick={onClick}> 
+            {name}
         </li>
     )
 }

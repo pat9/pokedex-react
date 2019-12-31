@@ -2,4 +2,40 @@
     width:100%;
     display: grid;
     grid-template-columns: 50px 1fr;
+    grid-template-areas:". logo";
+    background-color: #1d4d4f;
+    grid-area: nav;
+}
+
+.header-menu-button{
+    background: rgba(0,0,0,.6);
+    position: fixed;
+    top: 5px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    left: 5px;
+    padding: 5px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+
+}
+
+.header-menu-button:hover{
+    cursor: pointer;
+}
+
+.header-menu-button i{
+    font-size:1.5em;
+    color:white;
+}
+
+.header-logo{
+    grid-area: logo;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    color: white;
 }

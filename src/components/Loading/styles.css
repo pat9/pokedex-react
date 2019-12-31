@@ -1,0 +1,19 @@
+.loading {
+    grid-area: pokedetail;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading img{
+    width: 64px;
+    animation: rotatePokeball 3.5s infinite;
+}
+
+@keyframes rotatePokeball {
+    0% { transform: rotate(0deg); width: 20px; }
+    50% { transform: rotate(360deg); width: 64px; }
+    100% { transform: rotate(0deg); width: 20px; }
+
+}
